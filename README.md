@@ -138,7 +138,4 @@ Output EXE will be in the `dist/` folder.
 
 ---
 
-## Developer
-
-Built for internal use at a Chartered Accountant firm.  
 For issues or feature requests, raise a GitHub Issue.
