@@ -5,6 +5,21 @@ A desktop automation tool built for CA firms to bulk-verify GST portal login cre
 Built with Python, PyQt5, and Selenium.
 
 ---
+## Why This Tool Exists
+
+This tool was built specifically as a companion for **[Jamku](https://jamku.app)** — 
+a GST Notice Management software built by **Madrecha Group**, widely used by CA firms across India.
+
+**The problem it solves:**
+Jamku's Sync feature fetches GST notices for all clients automatically. However, if more 
+than **5 wrong/expired passwords** are encountered during a sync, **the sync stops entirely.**
+
+This means before every sync, you need to ensure all client GST passwords are valid.
+Checking them manually one by one is time-consuming — especially for firms with 50–200+ clients.
+
+**This tool automates exactly that** — verify all passwords in bulk before you hit Sync in Jamku.
+
+---
 
 ## What It Does
 
