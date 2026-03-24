@@ -31,7 +31,7 @@ CA firms manage GST credentials for multiple clients. This tool:
 
 ---
 
-## 📋 Password Status Results
+## Password Status Results
 
 Each client row will show one of these statuses after checking:
 
@@ -67,7 +67,7 @@ gstin,name,portalUserName,portalPassword
 
 ---
 
-## 🖥️ How to Use
+## How to Use
 
 **Step 1 — Open the app**
 Run `GST_Login_Verifier.exe` (or run the `.py` script if using Python directly)
@@ -109,7 +109,7 @@ Also requires **Google Chrome** to be installed on the machine.
 
 ---
 
-## 🏗️ Build EXE (For Distribution)
+## Build EXE (For Distribution)
 
 ```bash
 pip install pyinstaller
@@ -120,7 +120,7 @@ Output EXE will be in the `dist/` folder.
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 - This tool is intended for **CA firms managing their own clients' credentials** with proper authorisation.
 - Do **not** run multiple instances simultaneously.
@@ -129,7 +129,7 @@ Output EXE will be in the `dist/` folder.
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - [Python](https://www.python.org/)
 - [PyQt5](https://pypi.org/project/PyQt5/) — Desktop GUI
@@ -138,7 +138,7 @@ Output EXE will be in the `dist/` folder.
 
 ---
 
-## 👨‍💻 Developer
+## Developer
 
 Built for internal use at a Chartered Accountant firm.  
 For issues or feature requests, raise a GitHub Issue.
